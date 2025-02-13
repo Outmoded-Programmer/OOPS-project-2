@@ -27,6 +27,11 @@ namespace OOPS_project_2
             Console.WriteLine("Administrator Details");
             Administrator admin = new Administrator(1, "Subhan", 40, "example@gmail.com", "Admission" , "admin");
             admin.getAdministratorDetails();
+       // Github Practice For Lab5
+            Console.WriteLine("Other Workers");
+            Worker admin = new Worker(1, "Subhan", 40, "example@gmail.com", "Admission" , "admin");
+            admin.getWorkerDetails();
+            
         }
     }
 }
