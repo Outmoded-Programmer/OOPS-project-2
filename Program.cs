@@ -15,6 +15,9 @@ namespace OOPS_project_2
             Student student = new Student(1, "Taha", 12, "example@gmail.com" , "B", "Maths");
             student.showStudent();
 
+            Console.WriteLine("Student Details");
+            Student student = new Student(1, "Shahzad", 01, "example@gmail.com" , "B", "Maths");
+            student.showStudent();
             //Student s = (Student)Person;
 
             Console.WriteLine("Teacher Details");
